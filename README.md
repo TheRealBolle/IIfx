@@ -14,7 +14,7 @@ The original PALs have been reverse-engineered and equations were rewritten to m
 JEDEC files are not dumps of the content of the original chips. They mostly seem to work for the test cases I was able to perform.
 Most PALs handle parts of the bus arbitration between the different DMA devices on the board. Certain expansion card combinations that involve bus mastering have yet ot be tested with the rewritten equations.
 
-The provided JEDEC files are intended to be used with a 16V8-type device (GAL16V8, PALCE16V8, ATF16V8) as a replacement
+The provided JEDEC files are intended to be used with a 16V8-type device (GAL16V8, PALCE16V8, ATF16V8 and 20V8 respectively) as a replacement
 for the video, clock and RAM-signalling PALs. Certain low power ATF16V8B don't work. ATF16V8C use pinkeepers instead of internal pullups and might be problematic as well.  
   
 Board locations and original part number reference:  
