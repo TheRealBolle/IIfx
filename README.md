@@ -20,7 +20,7 @@ for the video, clock and RAM-signalling PALs. Certain low power ATF16V8B don't w
 Board locations and original part number reference:  
   
 UJ7 341S0751  
-UK7 341S0750 
+UK7 341S0750  
 UL6 341S0766-2  
 UL8 341S0765  
 UN9 341S0719  
