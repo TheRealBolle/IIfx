@@ -11,11 +11,11 @@ The provided logicboard files are licensed under CC-BY-NC-SA - they are NOT inte
 # Reverse engineered PALs
   
 The original PALs have been reverse-engineered and equations were rewritten to match the behaviour of the originals - the provided
-JEDEC files are not dumps of the content of the original chips. They mostly seem to work for the test cases I was able to perform.
-Most PALs handle parts of the bus arbitration between the different DMA devices on the board. Certain expansion card combinations that involve bus mastering have yet ot be tested with the rewritten equations.
+JEDEC files are not dumps of the content of the original chips.
+The PALs handle most of the bus arbitration between the different DMA devices as well as controlling the fast/slow data- and address busses.
 
-The provided JEDEC files are intended to be used with a 16V8-type device (GAL16V8, PALCE16V8, ATF16V8 and 20V8 respectively) as a replacement
-for the video, clock and RAM-signalling PALs. Certain low power ATF16V8B don't work. ATF16V8C use pinkeepers instead of internal pullups and might be problematic as well.  
+The provided JEDEC files are intended to be used with a 16V8/20V8-type device (GAL16V8, PALCE16V8, ATF16V8 and 20V8 respectively)
+Certain low power ATF16V8B don't work. ATF16V8C use pinkeepers instead of internal pullups and might be problematic as well.  
   
 Board locations and original part number reference:  
   
